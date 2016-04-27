@@ -1,0 +1,45 @@
+body, html {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	min-width: 960px;
+	/*background-color: black;*/
+	-webkit-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+  font-family: 'Aliquam';
+	overflow-x: hidden;
+}
+
+nav {
+	position: fixed;
+	background-color: white;
+	width: 1280px;
+	height: 101px;
+	z-index: 100;
+}
+
+.logo {
+	float: left;
+	margin-right: 160px;
+	margin-left: 20px;
+}
+.bar_text {
+	float: left;
+	margin-right: 180px;
+	margin-left: 0px;
+	margin-top: 35px;
+	font-size: 190%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.memyselfandi {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+

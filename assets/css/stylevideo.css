@@ -1,0 +1,214 @@
+/* Utility Stylesheets */
+/* period is class. hash is id */
+
+.GoBack {
+    top: 10px;
+}
+a {
+color: inherit;
+text-decoration: none;
+}
+
+.clear {
+clear: both;
+}
+
+.img-scaled {
+width: 100%;
+}
+
+.img-scaled-wh {
+width: 100%;
+height: 100%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+
+body {	
+font-family: "Aliquam";
+margin: 0px;
+background: #edeae5;
+}
+
+#background {
+    background: url('background.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#hero {
+    position: absolute;
+    color: white;
+    bottom: 90px;
+    right: 90px;
+    text-align: right;
+}
+#subheading {
+    font-size: 24px;
+}
+#heading {
+    font-size: 48px;
+}
+#link {
+    background: #68a3de;
+    float: right;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+#container {
+    position: absolute;
+    width: 100%;
+    height: 518px;
+    top: 50%;
+    margin-top: -269px;
+}
+#content {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#carousel-prev {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    -webkit-transition: linear 0.2s;
+}
+#carousel-next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 50%;
+    right: 0px;
+    margin-top: -30px;
+    cursor: pointer;
+    -webkit-transition: linear 0.2s;
+}
+#carousel-prev:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#carousel-next:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+
+#modal-container {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#modal-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 50%;
+}
+
+#modal-box {
+    width: 500px;
+    height: 260px;
+    background-color: #43bf66;
+    position: absolute;
+    top: calc(50% - 130px);
+    right: calc(50% - 250px);
+    z-index: 100;
+}
+
+#header {
+    font-size: 175%;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+#field {
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px
+}
+
+.username {
+    padding: 10px;
+    border: solid white;
+    background: transparent;
+    margin: 0px;
+    margin-bottom: 20px;
+    width: 460px;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+}
+
+.password {
+    padding: 10px;
+    border: solid white;
+    background: transparent;
+    margin: 0px;
+    margin-bottom: 10px;
+    width: 460px;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+}
+
+.username::-webkit-input-placeholder {
+    color: white;
+}
+
+.password::-webkit-input-placeholder {
+    color: white;
+}
+
+#footer {
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#submit {
+    background-color: white;
+    padding: 10px;
+    width: 70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #43bf66;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#cancel {
+    background-color: white;
+    padding: 10px;
+    width: 70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #43bf66;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+/* Question 3 */
